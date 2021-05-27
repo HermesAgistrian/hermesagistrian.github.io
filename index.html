@@ -12,7 +12,7 @@
 <body>
   <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
     <div class="container">
-      <span class="navbar-brand fw-bold">Portfolio</span>
+      <span class="navbar-brand fw-bold">Hermes</span>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -39,7 +39,7 @@
     <h1>DEVELOPERDEVELOPERDEVELOPER</h1>
   </div>
 
-  <section id="home" class="text-white position-relative py-5">
+  <section id="home" class="text-white position-relative py-5 text-grey">
     <div class="vertical-line"></div>
     <div class="container min-vh-100">
       <div class="row min-vh-100">
@@ -118,12 +118,12 @@
         <div class="col-12 text-md-center">
           <h1 class="title text-blue fw-bold hide">Portfolio</h1>
         </div>
-        <div class="col-12 col-md-6 mb-3">
+        <div class="col-12 col-md-6 col-lg-4 mb-3">
           <div class="card hide">
             <img src="img/inventaris.png" class="w-100 img-thumbnail">
             <div class="card-body">
               <h5 class="card-title text-dark fw-bold">Sistem Inventaris Barang</h5>
-              <p class="card-text text-dark">This website is for managing data of outgoing and incoming items.</p>
+              <p class="card-text text-dark small">This website is for managing data of outgoing and incoming items.</p>
               <div class="row">
                 <div class="col-3 col-sm-2">
                   <img src="img/bootstrap.svg" class="w-100">
@@ -135,10 +135,30 @@
                   <img src="img/laravel.svg" class="w-100">
                 </div>
               </div>
+              <div class="accordion mt-3 text-light" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Features
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body text-dark">
+                      <ul>
+                        <li>Multiusers Login</li>
+                        <li>CRUD users data</li>
+                        <li>CRUD items stock</li>
+                        <li>CRUD incoming items</li>
+                        <li>CRUD outgoing items</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 mb-3">
+        <!-- <div class="col-12 col-md-6 col-lg-4 mb-3">
           <div class="card hide">
             <img src="img/sipekat.png" class="w-100 img-thumbnail">
             <div class="card-body">
@@ -157,7 +177,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </section>
